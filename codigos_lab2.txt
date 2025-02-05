@@ -1,0 +1,40 @@
+Códigos de la practica uno.
+
+sudo apt-get update: actualiza los repositorios.
+
+sudo apt upgrade: actualiza las aplicaciones.
+
+cat /etc/apt/sources.list: enlista los repositorios
+
+locate bashtop: ubica paquetes dentro del sistema.
+
+git clone (url del archivo de GitHub):
+
+ls: enlista carpetas.
+
+cd/cd .. : sirve para mover en carpetas a través de la consola.
+
+sudu ./build: instala paquetes.
+
+bashtop: ejecuta la app.
+
+sudo apt purge bashtop: elimina la app.
+
+rm -rf bashtop: elimina todo lo de la app que haya quedado.
+
+---------------------------------------------------------------------------------------------
+
+
+Códigos de la segunda practica. 
+
+crontab -e: entra en la app cron.
+
+0 23 * * * sudo apt update && sudo upgrade -Y: estamos indicando una tarea diaria a las 11:00 PM.
+
+0 3 ** 0 sudo reboot: estamos indicando una tarea todos los domingos a las 3:00 AM.
+
+at now +1 minute ] rm -rf /tmp/*: estamos indicando una tarea para un minuto
+
+
+
+
